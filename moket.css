@@ -1,0 +1,418 @@
+.head{
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    padding: 20px 180px;
+    padding-bottom: 0px;
+}
+.glava{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.logo{
+    width: 60px;
+    height: 33px;
+    line-height: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    display: flex;
+}
+.logo::after{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: orange;
+    right: -19px;
+    bottom: 3px;
+    box-sizing: border-box;
+}
+.list ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.list ul li{
+    box-sizing: border-box;
+    margin-right: 30px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.osnova{
+    box-sizing: border-box;
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 500px;
+    box-sizing: border-box;
+    margin-top: 170px;
+}
+.glav_text{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.info_text{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1;
+}
+.image{
+    height: 613px;
+    width: 494px;
+    background-image: url("hero.png");
+}
+.second{
+    height: 300px;
+    box-sizing: border-box;
+    padding: 50px 0px;
+}
+.all{
+    height: 228px;
+    width: 1170px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.item_1{
+    width: 370px;
+    height: 228px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.img_1{
+    width: 68px;
+    height: 68px;
+    background-image: url("graphic\ 1.png");
+}
+.item_1 p{
+    font-size: 17px;
+}
+.item_2{
+    width: 370px;
+    height: 228px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.img_2{
+    width: 68px;
+    height: 68px;
+    background-image: url("startup\ 1.png");
+}
+.item_2 p{
+    font-size: 17px;
+}
+.item_3{
+    width: 370px;
+    height: 228px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.img_3{
+    width: 68px;
+    height: 68px;
+    background-image: url("browser\ 1.png");
+}
+.item_3 p{
+    font-size: 17px;
+}
+.port{
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    padding: 70px 70px;
+}
+.glav_img_1{
+    box-sizing: border-box;
+    width: 930px;
+    height: 500px;
+    background-image: url("Слой 8.png");
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.glav_img_2{
+    box-sizing: border-box;
+    width: 930px;
+    height: 500px;
+    background-image: url("reebok_web.png");
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.glav_img_3{
+    box-sizing: border-box;
+    width: 930px;
+    height: 500px;
+    background-image: url("reebok_web\ \(1\).png");
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.end{
+    height: 423px;
+    box-sizing: border-box;
+}
+.contact{
+    height: 430px;
+    width: 343px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.button{
+    width: 180px;
+    height: 42px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    align-items: center;
+    display: flex;
+    margin:  0 auto;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.icons{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.icon_1{
+    width: 40px;
+    height: 40px;
+    background-image: url("icons8-линкедин-40.png");
+    cursor: pointer;
+}
+.icon_2{
+    width: 40px;
+    height: 40px;
+    background-image: url("icons8-instagram-40.png");
+    cursor: pointer;
+}
+.icon_3{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-image: url("icons8-behance-40.png");
+}
+.icon_4{
+    width: 40px;
+    height: 40px;
+    background-image: url("icons8-dribbble-40.png");
+    cursor: pointer;
+}
+
+@media (max-width:580px) {
+    .list{
+        display: none;
+    }
+    .head{
+        background-color: #f1f1f1;
+        box-sizing: border-box;
+        padding: 40px 30px;
+        padding-bottom: 0px;
+    }
+    .logo{
+        width: 60px;
+        height: 33px;
+        line-height: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        position: relative;
+        display: flex;
+    }
+    .logo::after{
+        content: "";
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        border-radius: 100%;
+        background-color: orange;
+        right: -19px;
+        bottom: 3px;
+        box-sizing: border-box;
+    }
+    .menu{
+        width: 33px;
+        height: 33px;
+        background-image: url(icons8-меню-33.png);
+    }
+    .osnova{
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .text{
+        width: 500px;
+        box-sizing: border-box;
+        margin-top: 0px;
+    }
+    .glav_text{
+        font-size: 23px;
+        font-family: sans-serif;
+    }
+    .info_text{
+        font-family: sans-serif;
+        font-size: 24px;
+        line-height: 1;
+        padding-top: 0px;
+    }
+    .image{
+        height: 613px;
+        width: 494px;
+        background-image: url("hero.png");
+    }
+    .second{
+        height: 750px;
+        box-sizing: border-box;
+        padding: 50px 0px;
+    }
+    .all{
+        height: 700px;
+        width: 350px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .item_1{
+        width: 370px;
+        height: 228px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    .img_1{
+        width: 68px;
+        height: 68px;
+        background-image: url("graphic\ 1.png");
+    }
+    .item_1 p{
+        font-size: 18px;
+    }
+    .item_2{
+        width: 370px;
+        height: 228px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    .img_2{
+        width: 68px;
+        height: 68px;
+        background-image: url("startup\ 1.png");
+    }
+    .item_2 p{
+        font-size: 18px;
+    }
+    .item_3{
+        width: 370px;
+        height: 228px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    .img_3{
+        width: 68px;
+        height: 68px;
+        background-image: url("browser\ 1.png");
+    }
+    .item_3 p{
+        font-size: 18px;
+    }
+    .port{
+        background-color: #f1f1f1;
+        box-sizing: border-box;
+        padding: 70px 70px;
+    }
+    .glav_img_1{
+        box-sizing: border-box;
+        width: 407px;
+        height: 218px;
+        background-image: url("Слой 8.png");
+        margin: 0 auto;
+        margin-top: 50px;
+        background-size: cover;
+    }
+    .glav_img_2{
+        box-sizing: border-box;
+        width: 407px;
+        height: 218px;
+        background-image: url("reebok_web.png");
+        margin: 0 auto;
+        margin-top: 80px;
+        background-size: cover;
+    }
+    .glav_img_3{
+        box-sizing: border-box;
+        width: 407px;
+        height: 218px;
+        background-image: url("reebok_web\ \(1\).png");
+        margin: 0 auto;
+        margin-top: 80px;
+        background-size: cover;
+    }
+    .end{
+        height: 423px;
+        box-sizing: border-box;
+    }
+    .contact{
+        height: 430px;
+        width: 343px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    .button{
+        width: 180px;
+        height: 42px;
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+        border-radius: 50px 50px 50px 50px;
+        align-items: center;
+        display: flex;
+        margin:  0 auto;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+    .icons{
+        width: 300px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    .icon_1{
+        width: 40px;
+        height: 40px;
+        background-image: url("icons8-линкедин-40.png");
+        cursor: pointer;
+    }
+    .icon_2{
+        width: 40px;
+        height: 40px;
+        background-image: url("icons8-instagram-40.png");
+        cursor: pointer;
+    }
+    .icon_3{
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        background-image: url("icons8-behance-40.png");
+    }
+    .icon_4{
+        width: 40px;
+        height: 40px;
+        background-image: url("icons8-dribbble-40.png");
+        cursor: pointer;
+    }
+}
