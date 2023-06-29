@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 20px 180px;
     padding-bottom: 0px;
+    width: 100%;
 }
 .glava{
     height: 60px;
@@ -220,6 +221,7 @@
         box-sizing: border-box;
         padding: 40px 30px;
         padding-bottom: 0px;
+        width: 100%;
     }
     .logo{
         width: 60px;
@@ -268,9 +270,10 @@
         padding-top: 0px;
     }
     .image{
-        height: 613px;
-        width: 494px;
+        height: 395px;
+        width: 100%;
         background-image: url("hero.png");
+        background-size: cover;
     }
     .second{
         height: 750px;
@@ -329,12 +332,12 @@
     .port{
         background-color: #f1f1f1;
         box-sizing: border-box;
-        padding: 70px 70px;
+        padding: 20px 50px;
     }
     .glav_img_1{
         box-sizing: border-box;
-        width: 407px;
-        height: 218px;
+        width: 100%;
+        height: 149px;
         background-image: url("Слой 8.png");
         margin: 0 auto;
         margin-top: 50px;
@@ -342,8 +345,8 @@
     }
     .glav_img_2{
         box-sizing: border-box;
-        width: 407px;
-        height: 218px;
+        width: 100%;
+        height: 149px;
         background-image: url("reebok_web.png");
         margin: 0 auto;
         margin-top: 80px;
@@ -351,8 +354,8 @@
     }
     .glav_img_3{
         box-sizing: border-box;
-        width: 407px;
-        height: 218px;
+        width: 100%;
+        height: 149px;
         background-image: url("reebok_web\ \(1\).png");
         margin: 0 auto;
         margin-top: 80px;
